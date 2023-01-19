@@ -16,7 +16,7 @@ export function Navbar(props: NavbarProps) {
             <button
                 className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block sm:hidden outline-none focus:outline-none"
                 onClick={navbarOpen ? () => setNavbarOpen(false) : () => setNavbarOpen(true)}>
-                <Sling />
+                <Sling size={50} />
             </button>
             <div
                 className={

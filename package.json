@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-popover": "1.0.3",
     "framer-motion": "^8.5.0",
     "hamburger-react": "^2.5.0",
     "phosphor-react": "^1.4.1",
