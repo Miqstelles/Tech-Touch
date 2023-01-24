@@ -10,6 +10,7 @@ function App() {
       <Hero />
       <About />
       <Footer />
+      <div className="h-[100px] bg-white"></div>
     </div>
   )
 }
