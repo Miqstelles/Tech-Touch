@@ -10,6 +10,7 @@ module.exports = {
     },
     backgroundImage: {
       phone: "url('/bg.png')",
+      ft: "url('/bgfooter.png')",
     },
     extend: {
       keyframes: {
