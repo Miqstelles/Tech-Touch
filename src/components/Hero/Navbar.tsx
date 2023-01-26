@@ -12,7 +12,7 @@ export function Navbar(props: NavbarProps) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
 
     return (
-        <nav className="relative flex flex-wrap items-center justify-between pt-10">
+        <nav className="relative flex items-center justify-between pt-10">
             <button
                 className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block sm:hidden outline-none focus:outline-none"
                 onClick={navbarOpen ? () => setNavbarOpen(false) : () => setNavbarOpen(true)}>

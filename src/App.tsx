@@ -8,9 +8,10 @@ function App() {
   return (
     <div className="w-full h-screen">
       <Hero />
-      <About />
+      <div className="flex items-center justify-center">
+        <About />
+      </div>
       <Footer />
-      <div className="h-[100px] bg-white"></div>
     </div>
   )
 }
