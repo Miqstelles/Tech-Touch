@@ -1,3 +1,1 @@
-
-
-<a href="https://tech-touch.vercel.app" target="_blank"/>
+https://tech-touch.vercel.app" 
